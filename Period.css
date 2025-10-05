@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #0F1A2B;
+}
+.li, .fb, .empty, .db, .ct, .sl, .wk, .sp, .tw, .tc, .gt, .yn, .il, .ts, .wu, .cv, .dg, .tg, .gg, .ex, .so, .cd, .cp, .tr, .mpty, .in, .mu, .me, .no, .re, .rs, .st, .ad{
+    width:100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.housing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0;
+    width:950px;
+    height: 425px;
+    margin-top: 30px;
+}
+.empty{
+    grid-column: span 4;
+}
+.li, .fb, .tw, .tc, .in, .re, .sl{
+    border: solid #F15A3A 5px;
+    border-radius: 10px;
+    color:#F15A3A
+}
+.wk, .sp, .cv, .dg, .tg, .mu, .me{
+    border-radius: 10px;
+    border:solid #FBB03B 5px;
+    color: #FBB03B;
+}
+.gt, .yn, .so, .cd, .no, .rs, .st, .ad, .ct{
+    border-radius: 10px;
+    border: solid #5A7DB3 5px;
+    color:#5A7DB3
+}
+.gg, .ex, .cp, .tr, .il, .ts, .wu, .db{
+    border-radius: 10px;
+    border: solid #8DC63F 5px;
+    color: #8DC63F;
+}
+span{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+p{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.encompass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.yellow{
+    height:20px;
+    width:20px;
+    background-color: #F15A3A;
+}
+.blue{
+    height:20px;
+    width:20px;
+    background-color:#8DC63F;
+}
+.green{
+    height:20px;
+    width:20px;
+    background-color:#5A7DB3;
+}
+.red{
+    height:20px;
+    width:20px;
+    background-color:#FBB03B;
+}
+.first, .second, .third, .fourth{
+    display: flex;
+    color:white;
+    margin-top: 30px;
+
+}
+.second, .third, .fourth{
+    margin-left: 15px;
+}
+.first > p, .second > p, .third > p, .fourth > p{
+    margin-left: 10px;
+}
+.arrow{
+    display: flex;
+    color:white;
+    gap: 20px;
+    margin-top: 10px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
